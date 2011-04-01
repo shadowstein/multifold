@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #292929;
+  background: -moz-linear-gradient(top,black, #3c3c3c 1px, #292929 25px);
+  background: -webkit-gradient(linear, left top, left 25, from(black) color-stop(4%), #3c3c3c), to(#292929);
+}
+
+#header {
+  margin: 0px auto 0px auto;
+  width: 1024px;
+  height: 116px;
+  background: url('images/header1.png');
+}
+
+#banner {
+  width: 1024px;
+  height: 304px;
+  margin: 10px auto 10px auto;
+  position: relative;
+  //background: black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#banner-image {
+  width: 1024px;
+  margin: 0px auto 0px auto;
+  padding: 0px 0px 0px 0px;
+  background: #515252;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  -moz-box-shadow: inset 1px 1px 10px black, inset -1px -1px 10px black;
+  -webkit-box-shadow: inset 1px 1px 10px black, inset -1px -1px 10px black;
+  box-shadow: inset 1px 1px 10px black, inset -1px -1px 10px black;
+}
+
+.banner {
+  margin: 10px auto 5px auto;
+}
+
+#content {
+  width: 994px;
+  margin: 10px auto 0px auto;
+  padding: 10px 10px 10px 15px;
+  background: #e3e3e3;
+  -moz-box-shadow: 1px 1px 5px #b3b3b3, -1px -1px 5px #b3b3b3;
+  -webkit-box-shadow: 1px 1px 1px #b3b3b3, -1px -1px 1px #b3b3b3;
+  box-shadow: 1px 1px 1px #b3b3b3, -1px -1px 1px #b3b3b3;
+  z-index: 0;
+  position: relative;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: Corbel, Calibri, Arial, Helvetica, Sans-serif;
+}
+
+#content-background {
+  background: #c3c3c3;
+  -moz-box-shadow: inset 1px 1px 30px #292929, inset -1px -1px 30px #292929;
+  -webkit-box-shadow: inset 1px 1px 30px #292929, inset -1px -1px 30px #292929;
+  box-shadow: inset 1px 1px 30px #292929, inset -1px -1px 30px #292929;
+  padding: 20px 0px 20px 0px;
+}
+
+#footer {
+  width: 1024px;
+  margin: 0px auto 0px auto;
+  padding: 5px 0px 0px 0px;
+  height: 60px;
+
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  color: #e3e3e3;
+}
+
+#left {
+  float: left;
+  width: 300px;
+}
+
+#center {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  float: left;
+}
+
+#center > a {
+  text-decoration: none;
+  color: #e3e3e3;
+}
+
+#right {
+  float: right;
+  width: 300px;
+  text-align: right;
+}
