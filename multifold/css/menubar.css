@@ -1,0 +1,162 @@
+#menu {
+  list-style: none;
+  width: 1004px;
+  height: 43px;
+  margin: -2px auto 0px auto;
+  padding: 0px 10px 0px 10px;
+  z-index: 20;
+  position: relative;
+        
+  background: yellow;
+  /*background: -moz-linear-gradient(top, #0272a7, #013953);*/
+  background: -moz-linear-gradient(center bottom, orange 32%, yellow 77%);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(yellow), to(yellow));
+  
+  background: url('images/menuline.png') repeat-x; z-index: 9; position: relative;
+  
+  -moz-box-shadow: inset 0px 0px 1px #edf9ff;
+  -webkit-box-shadow: inset 0px 0px 1px #edf9ff;
+  box-shadow: inset 0px 0px 1px #edf9ff;
+}
+
+#menu li {
+  float: left;
+  display: block;
+  text-align: center;
+  position: relative;
+  padding: 4px 10px 4px 10px;
+  margin: 7px -5px 7px 0px;
+  border: none;
+}
+
+#menu li.list-menu:hover {
+  border: 1px solid #777777;
+  padding: 4px 9px 4px 9px;
+  
+  background: #f4f4f4;
+  background: -moz-linear-gradient(top, #f4f4f4, #eeeeee);
+  background: -webkit-gradient(linear, 0% 0%, 0%, from(#f4f4f4), to(#eeeeee));
+  
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#menu #drop:hover {
+  border: 1px solid #777777;
+  padding: 4px 9px 4px 9px;
+  
+  background: #f4f4f4;
+  background: -moz-linear-gradient(top, #f4f4f4, #eeeeee);
+  background: -webkit-gradient(linear, 0% 0%, 0%, from(#f4f4f4), to(#eeeeee));
+    
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+#menu li a {
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  display: block;
+  outline: 0;
+  
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #eee;
+}
+
+#menu li:hover a {
+  color: #161616;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+input#search {
+  border: 0 none;
+  
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+  -moz-box-shadow: -1px -1px 1px #bbb;
+  -webkit-box-shadow: -1px -1px 1px #bbb;
+  box-shadow: -1px -1px 1px #bbb;
+}
+
+div#search {
+  border: 0 none;
+  padding: 0px;
+  margin: -4px 0px 0px 80px;
+}
+
+#searchglass {
+
+  border: 0 none;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+  background: url('../images/search-icon.gif') no-repeat center;
+  
+  width: 18px; 
+  height: 20px;
+  margin: 0px 0px 0px 0px;
+  top: 0px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: transparent;
+}
+
+img {
+  border: none;    
+}
+
+.dropdown {
+  margin: 4px auto;
+  position: absolute;
+  left: -999em;
+  text-align: left;
+  padding: 10px 5px 10px 5px;
+  border: 1px solid #777777;
+  border-top: none;
+  
+  background: #f4f4f4;
+  background: -moz-linear-gradient(top, #eeeeee, #bbbbbb);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#bbbbbb));
+  
+  -moz-border-radius: 0px 5px 5px 5px;
+  -webkit-border-radius: 0px 5px 5px 5px;
+  border-radius: 0px 5px 5px 5px;
+}
+
+.dropdown {
+  width: 700px;
+}
+
+#submenu {
+  width: 140px;
+  float: left;
+  text-align: center;
+}
+
+#submenu:hover {
+  -moz-box-shadow: inset 1px 1px 10px #292929, inset -1px -1px 10px #292929;
+  -webkit-box-shadow: inset 1px 1px 10px #292929, inset -1px -1px 10px #292929;
+  box-shadow: inset 1px 1px 10px #292929, inset -1px -1px 10px #292929;
+  
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#menu #drop:hover .dropdown {
+  left: -1px;
+  top: auto;
+  -moz-box-shadow: 1px 1px 1px #292929;
+  -webkit-box-shadow: 1px 1px 1px #292929;
+  box-shadow: 1px 1px 1px #292929;
+}
