@@ -7,7 +7,10 @@
 	<meta name="author" content="root">
 	<!-- Date: 2011-01-04 -->
 
+<<<<<<< HEAD
 <link rel="shortcut icon" href="images/mfl.ico"/>
+=======
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
 <link rel="stylesheet" type="text/css" href="css/page.css">
 <link rel="stylesheet" type="text/css" href="css/menubar.css">
 <link rel="stylesheet" type="text/css" href="css/cycle.css">
@@ -71,11 +74,19 @@
       <li class="list-menu"><a href="index.php">Home</a></li>
       <li id="drop"><a class="drop" href="#">Solutions and Services</a>
         <div class="dropdown">
+<<<<<<< HEAD
               <div id="submenu"><a href="index.php?p=hsbu">iWare</a></div>
               <div id="submenu"><a href="index.php?p=ecbu">iBuild</a></div>
               <div id="submenu"><a href="index.php?p=adbu">iPackage</a></div>
               <div id="submenu"><a href="index.php?p=msbu">iSource</a></div>
               <div id="submenu"><a href="index.php?p=idbu">iDesign</a></div>
+=======
+              <div id="submenu"><a href="index.php?p=hsbu">iWare<br><br>Hardware and Software Business Unit</a><br></div>
+              <div id="submenu"><a href="index.php?p=ecbu">iBuild<br><br>Engineering and Construction Business Unit</a><br></div>
+              <div id="submenu"><a href="index.php?p=adbu">iPackage<br><br>Applications and Development Business Unit</a><br></div>
+              <div id="submenu"><a href="index.php?p=msbu">iSource<br><br>Managed Services Business Unit</a><br></div>
+              <div id="submenu"><a href="index.php?p=idbu">iDesign<br><br>Interior Design Business Unit</a><br></div>
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
         </div>
       </li>
       <li class="list-menu"><a href="index.php?p=clients">Clients</a></li>
@@ -97,10 +108,17 @@
   if (!file_exists($path)) { ?>
     <div id="banner">
       <div id='pictures' class = 'pics'>
+<<<<<<< HEAD
       	<img class="jpg" id='jpg1' src="images/hourglass_main.png" width=720px height=300px />
       	<img class="jpg" id='jpg2' src="images/netcrunch_main.png" width=720px height=300px />
         <img class="jpg" id='jpg3' src="images/zyrion_main.png" width=720px height=300px />
         <img class="jpg" id='jpg4' src="images/dbm_main.png" width=720px height=300px />
+=======
+        <img class="jpg" id='jpg1' src="images/zyrion_main.gif" width=720px height=300px />
+        <img class="jpg" id='jpg2' src="images/dbm_main.png" width=720px height=300px />
+        <img class="jpg" id='jpg3' src="images/3.jpg" width=720px height=300px />
+        <img class="jpg" id='jpg4' src="images/4.jpg" width=720px height=300px />
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
       </div>
     </div>
 <?php } else { ?> 

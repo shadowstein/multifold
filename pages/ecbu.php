@@ -7,8 +7,13 @@
               <h3>Data Center Build Out</h3>
               <div id="list_content">
                 <p>IT is an important aspect of most organizations these days. With an ever increasing reliance on 
+<<<<<<< HEAD
                   information systems to run a company's operations, business continuity becomes a major concern for 
                   these organizations. With MFL's Data Center Build Out, we can provide a reliable infrastructure for 
+=======
+                  information systems to run a company?s operations, business continuity becomes a major concern for 
+                  these organizations. With MFL?s Data Center Build Out, we can provide a reliable infrastructure for 
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
                   IT operations, minimizing any chance of a disruption to your business operations. 
                 </p>
                 <p>Typical Specs of Data Center Build Out: </p>

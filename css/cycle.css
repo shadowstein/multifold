@@ -8,22 +8,38 @@
 #nav > a {
   display: block;
   margin: 1px 2px 2px 2px;
+<<<<<<< HEAD
   height: 71px;
+=======
+  height: 73px;
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
   
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 
+<<<<<<< HEAD
   -moz-box-shadow: inset -1px -1px 5px #292929;
   -webkit-box-shadow: inset -1px -1px 5px #292929;
   box-shadow: inset -1px -1px 5px #292929;
+=======
+  -moz-box-shadow: inset -3px -3px 5px black;
+  -webkit-box-shadow: inset -3px -3px 5px black;
+  box-shadow: inset -3px -3px 5px black;
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
 }
 
 
 #nav a.activeSlide {
+<<<<<<< HEAD
   -moz-box-shadow: inset 1px 1px 5px #292929;
   -webkit-box-shadow: inset 1px 3x 5px #292929;
   box-shadow: inset 1px 1px 5px #292929;
+=======
+  -moz-box-shadow: inset 3px 3px 5px black;
+  -webkit-box-shadow: inset 3px 3x 5px black;
+  box-shadow: inset 3px 3px 5px black;
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
 }
 
 #pictures {
@@ -33,9 +49,15 @@
   float: left;
   z-index: 5;
    
+<<<<<<< HEAD
   -moz-box-shadow: 1px 1px 5px #292929, -1px -1px 5px #292929;
   -webkit-box-shadow: 1px 1px 5px #292929, -1px -1px 5px #292929;
   box-shadow: 1px 1px 5px #292929, -1px -1px 5px #292929;
+=======
+  -moz-box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  -webkit-box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
 }
 
 .jpg {
@@ -44,6 +66,7 @@
 }
 
 #a_paging1 {
+<<<<<<< HEAD
   background: url('../images/hourglass.png');
 }
 
@@ -57,4 +80,19 @@
 
 #a_paging4 {
   background: url('../images/dbm.png');
+=======
+  background: url('../images/zyrion.gif');
+}
+
+#a_paging2 {
+  background: url('../images/dbm.png');
+}
+
+#a_paging3 {
+  background: url('../images/orange.jpg');
+}
+
+#a_paging4 {
+  background: url('../images/orange.jpg');
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
 }

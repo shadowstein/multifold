@@ -6,7 +6,11 @@
    <div id="accordion">
       <h3> Network and Systems Management</h3>
       <div id="list_content">
+<<<<<<< HEAD
             <h4>Axence nVision</h4>
+=======
+            <h4>Axence nVision 4.5</h4>
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
               <p>Axence nVision gives you everything you need to manage your network in an
                efficient and effective manner. The application consists of 5 modules, which offer:
                proactive network monitoring and visualization, hardware and software inventory,
@@ -39,8 +43,12 @@
 	              the users to copy files from a company machine or to run external software.
 	              </li>
               </ul>
+<<<<<<< HEAD
               
             <h4>AdRem NetCrunch</h4>
+=======
+            <h4>AdRem NetCrunch 6.0</h4>
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
               <p>NetCrunch enables IT teams to eliminate performance and technology
               inefficiencies associated with the reactive and segmented network management
               approaches. NetCrunch users can stay ahead of disruptions, being able to detect
@@ -59,6 +67,10 @@
               resource usage on the dedicated machine is optimized to ensure that all nodes
               and services are being monitored within the requested time.
               </p>
+<<<<<<< HEAD
+=======
+              <br>
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
               <p><strong>Features:</strong></p>
 
               <ul>
@@ -92,6 +104,7 @@
 	              logged in.
 	              </li>
               </ul>
+<<<<<<< HEAD
            
               <p><strong>What's new in 6.5?</strong></p>
               <ul>
@@ -117,6 +130,8 @@
               
               <p>Download the Adrem Netcrunch Demo <a href="http://www.adremsoft.com/demo/download.php?rid=bXVsdGlmb2xk">here</a>.</p>
               
+=======
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
               <h4>Zyrion Traverse</h4>
               <p>Zyrion’s Traverse is a breakthrough network performance monitoring and <a href="http://www.zyrion.com/products/BSM_SLA_Management.php"> Business Service Management (BSM)</a> 
               	application that provides real-time visibility into the performance of IT services. 
@@ -415,7 +430,11 @@
               data consistent backup copies directly from snapshots virtually eliminating the
               need for an operational backup window.
               </p>
+<<<<<<< HEAD
               
+=======
+              <br>
+>>>>>>> 3de0fd87913ccea94166b65245aca9ea7a94ecc7
               <p><strong>Features:</strong></p><br>
               <ul>
               <li> <strong>Rapid deployment with existing infrastructure</strong> -- CommVault
