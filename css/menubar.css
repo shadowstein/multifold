@@ -143,12 +143,16 @@ img {
 }
 
 #submenu:hover {
-  -moz-box-shadow: inset 1px 1px 5px #292929, inset -1px -1px 5px #292929;
-  -webkit-box-shadow: inset 1px 1px 5px #292929, inset -1px -1px 5px #292929;
-  box-shadow: inset 1px 1px 5px #292929, inset -1px -1px 5px #292929;
+  background: #7093DB;
+  /*
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  */
+}
+
+#submenu > a {
+  padding: 5px;
 }
 
 #menu #drop:hover .dropdown {
