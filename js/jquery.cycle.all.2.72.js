@@ -803,7 +803,7 @@ $.fn.cycle.defaults = {
   next:      null,  // selector for element to use as click trigger for next slide
   prev:      null,  // selector for element to use as click trigger for previous slide
   prevNextClick: null,  // callback fn for prev/next clicks:  function(isNext, zeroBasedSlideIndex, slideElement)
-  prevNextEvent:'click',// event which drives the manual transition to the previous or next slide
+  prevNextEvent: null,// event which drives the manual transition to the previous or next slide
   pager:       null,  // selector for element to use as pager container
   pagerClick:    null,  // callback fn for pager clicks:  function(zeroBasedSlideIndex, slideElement)
   pagerEvent:   'click', // name of event which drives the pager navigation

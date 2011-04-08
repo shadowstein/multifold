@@ -13,12 +13,16 @@
 <link rel="stylesheet" type="text/css" href="css/menubar.css">
 <link rel="stylesheet" type="text/css" href="css/cycle.css">
 <link rel="stylesheet" type="text/css" href="css/content.css">
+<link rel="stylesheet" type="text/css" href="css/visuallightbox.css">
+<link rel="stylesheet" type="text/css" href="css/vlightbox1.css">
 <script type="text/javascript" src="js/clients.js"></script>
 <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
 <script type="text/javascript" src="js/jquery.cycle.all.2.72.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.1.1.js"></script>
 <script type="text/javascript" src="js/jmenu.js"></script>
 <script type="text/javascript" src="js/japps.js"></script>
+<script type="text/javascript" src="js/visuallightbox.js"></script>
+<script type="text/javascript" src="js/vlbdata.js"></script>
 <style>
   #header {background: url('images/header1.png');}
   #header-background {background: url('images/headerline.png') repeat-x;}
@@ -99,11 +103,10 @@
   if (!file_exists($path)) { ?>
     <div id="banner">
       <div id='pictures' class = 'pics'>
-
-      	<img class="jpg" id='jpg1' src="images/hourglass_main.png" width=720px height=300px />
-      	<img class="jpg" id='jpg2' src="images/netcrunch_main.png" width=720px height=300px />
-        <img class="jpg" id='jpg3' src="images/zyrion_main.png" width=720px height=300px />
-        <img class="jpg" id='jpg4' src="images/dbm_main.png" width=720px height=300px />
+      	<a href="index.php?p=adbu"><img class="jpg" id='jpg1' src="images/hourglass_main.png" width=720px height=300px /></a>
+      	<a href="index.php?p=hsbu"><img class="jpg" id='jpg2' src="images/netcrunch_main.png" width=720px height=300px /></a>
+        <a href="index.php?p=hsbu"><img class="jpg" id='jpg3' src="images/zyrion_main.png" width=720px height=300px /></a>
+        <a href="index.php?p=news"><img class="jpg" id='jpg4' src="images/dbm_main.png" width=720px height=300px /></a>
       </div>
     </div>
 <?php } else { ?> 
